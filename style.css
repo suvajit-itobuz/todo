@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.todo-input-button-container {
+  gap: 10px;
+}
+
+.todo-input-write {
+  width: 30vw;
+  padding: 15px;
+}/*# sourceMappingURL=style.css.map */
