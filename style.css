@@ -8,7 +8,44 @@
   gap: 10px;
 }
 
-.todo-input-write {
+.todo-input-button:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
+
+#todo-input-write {
   width: 30vw;
   padding: 15px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.output-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  width: 50vw;
+  background-color: #caf0f8;
+}
+
+.output-item-button-container {
+  width: 100%;
+}
+
+.output-item-complete-button {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
